@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.teste {
+    background-color: red;
+}
+
+.navigator {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0px solid black;
+    box-shadow: 0px 0px 15px #969494;
+}
+
+.navigator .navigator-m {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigator .navigator-m a{
+    display: flex;
+    align-items: center ;
+    text-decoration: none;
+    color: #3A3A38;
+}
+
+#btn {
+
+    height: 42px;
+    margin: 0 20px 0 40px;
+    background-color: #95ff9c;
+    background-color: #95ff9c;
+    border-color: #95ff9c;
+    border-radius: 4px;
+    transition: 200ms;
+}
+
+#btn:hover {
+    background-color: #00E81C;
+
+
+    /* trocar cor, ver cor do botão no figma */
+}
+
+.navigator ul {
+    display: flex;
+}
+
+.navigator ul li {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 42px;
+    height: 42px;
+    margin: 0 5px;
+    border: 1px solid #e1e1e1;
+    border-radius: 100%;
+    list-style: none;
+}
+
+.navigator  span{
+    margin: 0 20px 0 40px;
+ 
+}
+
+.navigator ul li:hover{
+    background-color: #00E81C;
+}
+
+.navigator ul li a {
+    text-align: center;
+}
+
+#page-home {
+    height: 110vh;
+
+
+
+
+     background: url("../assets/home-stalo.png") no-repeat;
+     background-size: cover;
+     margin: 15px 0;
+     color: #fff;
+     padding-top:  80px;
+     padding-bottom: 80px;
+     margin: 40px;
+
+
+}
+
+.page-20{
+  
+    width: 100px;
+    height: 100px;
+    background-color: #00E81C;
+}
