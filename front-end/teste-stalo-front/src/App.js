@@ -1,11 +1,13 @@
 import React from 'react';
-import PageHome from './components/PageHome';
+import Routes from './routes';
+
 
 
 function App() {
   return (
     <div className="App">
-     <PageHome></PageHome>
+      
+      <Routes/>
     </div>
   );
 }
