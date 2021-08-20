@@ -23,7 +23,7 @@ export default function PageHome() {
     const data = { name, company,  term,  email, phone, message }
     try {
       const response = await api.post('client',data)
-      alert(`cadastro realisado com suceso`)
+      alert(`cadastro realizado com suceso`)
       
     
    
